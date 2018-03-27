@@ -2,7 +2,7 @@
     "name": "r3-cli-vscode-snippet",
     "displayName": "R3 CLI Snippet",
     "description": "React-Redux-Router Generator Snippet for VS Code",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "author": "reginaldo.cmorais@gmail.com",
     "repository": {
 		"type": "git",
