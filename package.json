@@ -1,0 +1,21 @@
+{
+    "name": "r3-cli-vscode-snippet",
+    "displayName": "R3 CLI Snippet",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "reginaldoMorais",
+    "engines": {
+        "vscode": "^1.21.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
