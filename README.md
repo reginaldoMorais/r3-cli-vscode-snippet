@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://reacttraining.com/react-router/">
+  <a href="https://github.com/reginaldoMorais/r3-cli-vscode-snippet">
     <img alt="r3-cli" src="images/r3-cli-snippet-icons.png" width="244">
   </a>
 </p>

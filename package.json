@@ -4,6 +4,13 @@
     "description": "React-Redux-Router Generator Snippet for VS Code",
     "version": "0.0.1",
     "author": "reginaldo.cmorais@gmail.com",
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/reginaldoMorais/r3-cli-vscode-snippet.git"
+	},
+	"bugs": {
+		"url": "https://github.com/reginaldoMorais/r3-cli/issues"
+	},
     "publisher": "reginaldoMorais",
     "engines": {
         "vscode": "^1.21.0"
@@ -19,7 +26,7 @@
             }
         ]
     },
-    "icon": "images/r3-cli-snippet-icons.png",
+    "icon": "https://github.com/reginaldoMorais/r3-cli-vscode-snippet/blob/master/images/r3-cli-snippet-icons.png",
     "keywords": [
         "react",
         "redux",
