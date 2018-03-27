@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/reginaldoMorais/r3-cli-vscode-snippet">
-    <img alt="r3-cli" src="images/r3-cli-snippet-icons.png" width="244">
+    <img alt="r3-cli" src="https://github.com/reginaldoMorais/r3-cli-vscode-snippet/blob/master/images/r3-cli-snippet-icons.png" width="244">
   </a>
 </p>
 
