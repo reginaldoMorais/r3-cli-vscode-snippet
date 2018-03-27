@@ -1,65 +1,56 @@
-# r3-cli-vscode-snippet README
+<p align="center">
+  <a href="https://reacttraining.com/react-router/">
+    <img alt="r3-cli" src="images/r3-cli-snippet-icons.png" width="244">
+  </a>
+</p>
 
-This is the README for your extension "r3-cli-vscode-snippet". After writing up a brief description, we recommend including the following sections.
+# VS Code R3-CLI Snippet
 
-## Features
+This extension provide you Javascript and React/Redux/Router snippets in ES6, ES7, Typescript with babel plugins features for [Vs Code](https://code.visualstudio.com/) complement development a [R3-CLI](https://github.com/reginaldoMorais/r3-cli)
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
 
-For example if there is an image subfolder under your extension project workspace:
+## Supported languages (file extensions)
 
-\!\[feature X\]\(images/feature-x.png\)
+* JavaScript (.js)
+* ReactJs (.jsx)
+* Redux (.js)
+* React-Router (.js)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
-## Requirements
+## Usage
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+### Console
 
-## Extension Settings
+|Prefix|Method|
+|-------:|-------|
+|`r3-clg→`|`console.log(label, object)`|
+|`r3-cer→`|`console.error(object)`|
+|`r3-cwa→`|`console.warn(object)`|
+|`r3-cin→`|`console.info(object)`|
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
 
-For example:
+### Reactstrap Components
 
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+|Prefix|Description|Doc|
+|-------:|-------|-------|
+|`r3-alert→`|`Creates a reactstrap Alert Component`|[Reactstrap Alert](https://reactstrap.github.io/components/alerts/)
+|`r3-badge→`|`Creates a reactstrap Badge Component`|[Reactstrap Badge](https://reactstrap.github.io/components/badge/)
+|`r3-card→`|`Creates a reactstrap Card Component`|[Reactstrap Card](https://reactstrap.github.io/components/card/)
+|`r3-card.img→`|`Creates a reactstrap Card.CardImg Component`|[Reactstrap CardImg](https://reactstrap.github.io/components/card/)
+|`r3-card.columns→`|`Creates a reactstrap Card.CardColumns Component`|[Reactstrap CardColumns](https://reactstrap.github.io/components/card/)
+|`r3-card.deck→`|`Creates a reactstrap Card.CardDeck Component`|[Reactstrap CardDeck](https://reactstrap.github.io/components/card/)
+|`r3-card.group→`|`Creates a reactstrap Card.CardGroup Component`|[Reactstrap CardGroup](https://reactstrap.github.io/components/card/)
+|`r3-card.body→`|`Creates a reactstrap Card.CardBody Component`|[Reactstrap CardBody](https://reactstrap.github.io/components/card/)
+|`r3-card.header→`|`Creates a reactstrap Card.CardHeader Component`|[Reactstrap CardHeader](https://reactstrap.github.io/components/card/)
+|`r3-card.imgOverlay→`|`Creates a reactstrap Card.CardImgOverlay Component`|[Reactstrap CardImgOverlay](https://reactstrap.github.io/components/card/)
+|`r3-card.title→`|`Creates a reactstrap Card.CardTitle Component`|[Reactstrap CardTitle](https://reactstrap.github.io/components/card/)
+|`r3-card.subtitle→`|`Creates a reactstrap Card.CardSubtitle Component`|[Reactstrap CardSubtitle](https://reactstrap.github.io/components/card/)
+|`r3-card.text→`|`Creates a reactstrap Card.CardText Component`|[Reactstrap CardText](https://reactstrap.github.io/components/card/)
+|`r3-card.link→`|`Creates a reactstrap Card.CardLink Component`|[Reactstrap CardLink](https://reactstrap.github.io/components/card/)
+|`r3-card.footer→`|`Creates a reactstrap Card.CardFooter Component`|[Reactstrap CardFooter](https://reactstrap.github.io/components/card/)
+|`r3-buttonGroup→`|`Creates a reactstrap ButtonGroup Component`|[Reactstrap ButtonGroup](https://reactstrap.github.io/components/button-group/)
+|`r3-button→`|`Creates a reactstrap Button Component`|[Reactstrap Button](https://reactstrap.github.io/components/buttons/)
+|`r3-checkbox→`|`Creates a reactstrap Checkbox Component`|[Reactstrap Checkbox](https://reactstrap.github.io/components/buttons/)
+|`r3-radio→`|`Creates a reactstrap Radio Component`|[Reactstrap Radio](https://reactstrap.github.io/components/buttons/)
+|`r3-listGroup→`|`Creates a reactstrap ListGroup Component`|[Reactstrap ListGroup](https://reactstrap.github.io/components/listgroup/)
+|`r3-tooltip→`|`Creates a reactstrap Tooltip Component`|[Reactstrap Tooltip](https://reactstrap.github.io/components/tooltips/)

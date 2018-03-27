@@ -1,1 +1,240 @@
-{}
+{
+  
+	"Console log": {
+		"prefix": "r3-clg",
+		"body": [
+			"console.log('${1:label}', ${2:object});"
+		],
+		"description": "Create Console log with label"
+	},
+
+	"Console error": {
+		"prefix": "r3-cer",
+		"body": [
+			"console.error(${1:object});"
+		],
+		"description": "Create Console error"
+	},
+
+	"Console warn": {
+		"prefix": "r3-cwa",
+		"body": [
+			"console.warn(${1:object});"
+		],
+		"description": "Create Console warn"
+	},
+
+	"Console info": {
+		"prefix": "r3-cin",
+		"body": [
+			"console.info(${1:object});"
+		],
+		"description": "Create Console info"
+	},
+
+	"Alert Component": {
+		"prefix": "r3-alert",
+		"body": [
+			"<Alert color=\"${1:primary}\">",
+			"  ${2:label}",
+			"</Alert>"
+		],
+		"description": "Creates a reactstrap Alert Component"
+	},
+
+	"Badge snippets": {
+		"prefix": "r3-badges",
+		"body": [
+			"<Badge color=\"${1:primary}\">${2:label}</Badge>"
+		],
+		"description": "Creates a reactstrap Badge Component"
+	},
+
+	"Card snippets": {
+		"prefix": "r3-card",
+		"body": [
+			"<Card>",
+			"  ${1:content}",
+			"</Card>"
+		],
+		"description": "Creates a reactstrap Card Component"
+	},
+
+	"Card.CardImg Component": {
+		"prefix": "r3-card.img",
+		"body": [
+			"<CardImg ${1:top} width=\"${2:100%}\" src=\"${3:src}\" alt=\"${4:alt}\" />"
+		],
+		"description": "Creates a reactstrap Card.CardImg Component"
+	},
+
+	"Card.CardColumns Component": {
+		"prefix": "r3-card.columns",
+		"body": [
+			"<CardColumns>",
+			"  ${1:content}",
+			"</CardColumns>"
+		],
+		"description": "Creates a reactstrap Card.CardColumns Component"
+	},
+
+	"Card.CardDeck Component": {
+		"prefix": "r3-card.deck",
+		"body": [
+			"<CardDeck>",
+			"  ${1:content}",
+			"</CardDeck>"
+		],
+		"description": "Creates a reactstrap Card.CardDeck Component"
+	},
+
+	"Card.CardGroup Component": {
+		"prefix": "r3-card.group",
+		"body": [
+			"<CardGroup>",
+			"  ${1:content}",
+			"</CardGroup>"
+		],
+		"description": "Creates a reactstrap Card.CardGroup Component"
+	},
+
+	"Card.CardBody Component": {
+		"prefix": "r3-card.body",
+		"body": [
+			"<CardBody>",
+			"  ${1:content}",
+			"</CardBody>"
+		],
+		"description": "Creates a reactstrap Card.CardBody Component"
+	},
+
+	"Card.CardHeader Component": {
+		"prefix": "r3-card.header",
+		"body": [
+			"<CardHeader>",
+			"  ${1:header}",
+			"</CardHeader>"
+		],
+		"description": "Creates a reactstrap Card.CardHeader Component"
+	},
+
+	"Card.CardImgOverlay Component": {
+		"prefix": "r3-card.imgOverlay",
+		"body": [
+			"<CardImgOverlay>",
+			"  ${1:content}",
+			"</CardImgOverlay>"
+		],
+		"description": "Creates a reactstrap Card.CardImgOverlay Component"
+	},
+
+	"Card.CardTitle Component": {
+		"prefix": "r3-card.title",
+		"body": [
+			"<CardTitle>",
+			"  ${1:title}",
+			"</CardTitle>"
+		],
+		"description": "Creates a reactstrap Card.CardTitle Component"
+	},
+
+	"Card.CardSubtitle Component": {
+		"prefix": "r3-card.subtitle",
+		"body": [
+			"<CardSubtitle>",
+			"  ${1:subtitle}",
+			"</CardSubtitle>"
+		],
+		"description": "Creates a reactstrap Card.CardSubtitle Component"
+	},
+
+	"Card.CardText Component": {
+		"prefix": "r3-card.text",
+		"body": [
+			"<CardText>",
+			"  ${1:content}",
+			"</CardText>"
+		],
+		"description": "Creates a reactstrap Card.CardText Component"
+	},
+
+	"Card.CardLink Component": {
+		"prefix": "r3-card.link",
+		"body": [
+			"<CardLink href=\"${1:#}\">",
+			"  ${2:content}",
+			"</CardLink>"
+		],
+		"description": "Creates a reactstrap Card.CardLink Component"
+	},
+
+	"Card.CardFooter Component": {
+		"prefix": "r3-card.footer",
+		"body": [
+			"<CardFooter>",
+			"  ${1:footer}",
+			"</CardFooter>"
+		],
+		"description": "Creates a reactstrap Card.CardFooter Component"
+	},
+
+	"ButtonGroup Component": {
+		"prefix": "r3-buttonGroup",
+		"body": [
+			"<ButtonGroup>",
+			"  <Button color=\"${1:primary}\">${2:label}</Button>",
+			"</ButtonGroup>"
+		],
+		"description": "Creates a reactstrap ButtonGroup Component"
+	},
+
+	"Button Component": {
+		"prefix": "r3-button",
+		"body": [
+			"<Button color=\"${1:primary}\">",
+			"  ${2:label}",
+			"</Button>"
+		],
+		"description": "Creates a reactstrap Button Component"
+	},
+
+	"Checkbox Component": {
+		"prefix": "r3-checkbox",
+		"body": [
+			"<ButtonGroup>",
+			"  <Button color=\"primary\" onClick={() => this.onCheckboxBtnClick(${1:value})} active={this.state.cSelected.includes(${1:value})}>${2:label}</Button>",
+			"</ButtonGroup>"
+		],
+		"description": "Creates a reactstrap Checkbox Component"
+	},
+
+	"Radio Component": {
+		"prefix": "r3-radio",
+		"body": [
+			"<ButtonGroup>",
+			"  <Button color=\"primary\" onClick={() => this.onRadioBtnClick(${1:value}} active={this.state.cSelected.includes(${1:value})}>${2:label}</Button>",
+			"</ButtonGroup>"
+		],
+		"description": "Creates a reactstrap Radio Component"
+	},
+
+	"ListGroup Component": {
+		"prefix": "r3-listGroup",
+		"body": [
+			"<ListGroup>",
+			"  <ListGroupItem>${1:item}</ListGroupItem>",
+			"</ListGroup>"
+		],
+		"description": "Creates a reactstrap ListGroup Component"
+	},
+
+	"Tooltip Component": {
+		"prefix": "r3-tooltip",
+		"body": [
+			"<Tooltip placement=\"${1:right}\" isOpen={this.state.tooltipOpen} target=\"${2:target}\" toggle={this.toggle}>",
+			"  ${3:label}",
+			"</Tooltip>"
+		],
+		"description": "Creates a reactstrap Tooltip Component"
+	}
+}
